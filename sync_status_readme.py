@@ -7,7 +7,7 @@ import logging
 
 # Constants
 START_DATE = datetime.fromisoformat('2025-11-17T00:00:00+00:00').replace(tzinfo=pytz.UTC)
-END_DATE = datetime.fromisoformat('2026-01-12T23:59:59+00:00').replace(tzinfo=pytz.UTC)
+END_DATE = datetime.fromisoformat('2026-01-11T23:59:59+00:00').replace(tzinfo=pytz.UTC)
 DEFAULT_TIMEZONE = 'Asia/Shanghai'
 FILE_SUFFIX = '.md'
 README_FILE = 'README.md'
